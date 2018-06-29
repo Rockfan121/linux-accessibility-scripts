@@ -9,7 +9,7 @@ This step will probably require assistence of an another person, it requires onl
 Most software is installed from the main Ubuntu package manager, aptitude.
 
 ### snapd
-It's a package repository that can be used for various distros. IDEs and code editor are downloaded from there. Before usingit for the first time, it also need to be installed.
+It's a package repository that can be used for various distros. IDEs and code editor are downloaded from there. Before using snapd for the first time, it also need to be installed.
 
 ## Languages, tools and more
 
@@ -17,10 +17,14 @@ It's a package repository that can be used for various distros. IDEs and code ed
 Scripts start with installing basic tools and compilers. They are aimed at Scala and Python programmers, so the scripts install: openjdk8, sbt, python. Git is also included.
 
 ### Accessible scala
-Accessible scala is a plugin for Visual Studio Code that enable the user to easier navigate the code written in Scala language. 
+Accessible scala is a plugin for Visual Studio Code that enable the user to easier navigate the code written in Scala language. It's possible to install it via VS Code interface. 
 
 ### IDEs
-Installed IDEs and code editors include JetBrains software (community versions) - IntelliJ IDEA and Pycharm - and Visual Studio Code. 
+Installed IDEs and code editors include JetBrains software (community versions) - IntelliJ IDEA and Pycharm - and Visual Studio Code. To start these applications, use a command
+
+`snap run application_name`
+
+where `application_name` can be `vscode`, `intellij-idea-community` or `pycharm-community`.
 
 ## Instruction
 The most preferable order of executing scripts is: 
